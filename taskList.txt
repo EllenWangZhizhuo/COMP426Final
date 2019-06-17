@@ -1,0 +1,8 @@
+2. Third party API
+3. At least one interactive feature in your interface that dynamically alters / updates the interface as a result of some user initiated action.
+$. CSS
+
+4. Two situations when showing the flights that are purchasable:
+    a. direct flight
+    b. flight with a layover
+    c. no flights possible (on or near date)

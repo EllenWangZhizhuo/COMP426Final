@@ -1,0 +1,154 @@
+
+.parallax {
+
+    /* The image used */
+    
+    background-image: url("http://canarytech.co/wp-content/uploads/2017/10/simple-professional-powerpoint-template-abstract-lines-background-backgrounds-presentation-ppt-templates.jpg");
+    
+    /* Set a specific height */
+    
+    height: 700px;
+    
+    
+    
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    }
+    
+    
+    
+    body {
+    
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    
+    }
+    
+    legend {
+    
+    font-size: 25px;
+    
+    padding-top: 10px;
+    
+    }
+    
+    
+    
+    .main {
+    
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    
+    padding-top: 220px;
+    
+    text-align: center;
+    
+    }
+    
+    h1 {
+    padding-top: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    
+    text-align: center;
+    
+    font-size: 35px; 
+    
+    font-style: normal; 
+    
+    font-variant: normal; 
+    
+    font-weight: 700; 
+    
+    }
+    
+    #round, #oneway, #search {
+    background-color: white;
+    font-size: 19px;
+    
+    padding: 20px;
+    
+    border-radius: 12px;
+    
+    font-size: 24px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    transition-duration: 0.4s;
+    
+    }
+    
+    #round:hover, #oneway:hover {
+    
+    background-color:rgb(147, 230, 236); 
+    
+    color: white;
+    
+    }
+    #departure{
+        
+    }
+
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: Transparent;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: transparent;
+  float: left;
+  color: black;
+  border-color: black;
+  padding: 10px 10px;
+  width: 50%;
+  border: 2px;
+  outline-width: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 17px;
+  border-radius: 12px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(110, 244, 253);
+  color: white
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgb(147, 230, 236);
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+th {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+/* Style the tab content */
+
+tbody{
+  background-color: rgb(23, 212, 230);
+
+}
